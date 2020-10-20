@@ -1,17 +1,12 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/*This program allows the user to type any word in.
- * If the word has two of the same letters next to each other,
- * it deletes one and prints out the new word.
- * Created by:Robert Johns
- */
 public class problem5 {
 	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
+		Scanner Names = new Scanner(System.in);
 		while (true) {
 			System.out.print("Input numbers: ");
-			String n = s.nextLine();
+			String n = Names.nextLine();
 			if (n.equals("")) {
 				break;
 			} else {
